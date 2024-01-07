@@ -26,6 +26,7 @@ const Products = ({match}) => {
     const {products,loading,productsCount,resultPerPage,filteredProductCount}=useSelector((state)=>state.products);
     console.log(productsCount);
     console.log(resultPerPage);
+    console.log(products);
     
     useEffect(() => {
         console.log()
@@ -52,6 +53,7 @@ const Products = ({match}) => {
                      <div className="products" id="container">
                 {products && products.map(product => 
                 {
+
                     return(
                      <ProductCard product={product} key={product._id}/>
                     )

@@ -37,6 +37,7 @@ exports.createProduct=async(req,res)=>{
         folder: "product",
         width: 150,
         crop: "scale",
+        quality: "auto:best",
       });
 
       imageLink.push({

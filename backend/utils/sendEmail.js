@@ -8,8 +8,8 @@ exports.sendEmail=async(options)=>{
         port:465,
         service:'gmail',
         auth:{
-            user:"",
-            pass:""
+            user:"shubhamgupta1999dkg@gmail.com",
+            pass:"wctrudytuuswvdzm"
         }
     });
 
